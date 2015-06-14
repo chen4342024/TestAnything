@@ -1,0 +1,568 @@
+body {
+  width: 100%;
+  overflow: hidden;
+}
+.hide {
+  display: none;
+}
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 100px;
+  text-align: center;
+}
+.part-el {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 100px;
+  text-align: center;
+}
+.part_title {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 10%;
+  padding: 0;
+}
+.part_img {
+  height: auto;
+  width: 160px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  margin-left: -80px;
+  margin-top: -80px;
+}
+.part_next {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 75%;
+}
+.part-msg {
+  height: auto;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+.page {
+  background-color: #fff;
+}
+.title {
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+.big-title {
+  font-size: 34px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+.msg {
+  font-size: 14px;
+  color: #888f8c;
+  line-height: 22px;
+}
+.move-next {
+  text-align: center;
+  font-size: 14px;
+  color: #ffc000;
+}
+.dot-group {
+  font-size: 14px;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 84%;
+  text-align: center;
+}
+.dot {
+  border-radius: 10px;
+  background: #c1c1c1;
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+}
+.dot-sel {
+  background: #ffc000;
+}
+.move-up {
+  height: auto;
+  width: 50px;
+  position: absolute;
+  left: 50%;
+  top: 92%;
+  margin-left: -25px;
+}
+.page .wrap {
+  height: 500px;
+}
+.page-current {
+  z-index: 1;
+}
+.part-current {
+  z-index: 1;
+}
+.center-text {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+}
+.left-text {
+  text-align: left;
+  position: absolute;
+  left: 0;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+/********绝对布局居中****************/
+/************修复display：inline-block 中间的间距**************/
+.inline-fix-parent {
+  letter-spacing: -0.3em;
+  /*根据不同字体字号或许需要做一定的调整*/
+}
+.inline-fix {
+  letter-spacing: normal;
+  zoom: 1;
+}
+.bottom-line {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+/********************************  part style **************************************************/
+.page-1-1 .bg1 {
+  width: 100%;
+  height: 100%;
+}
+.page-1-1 .part_1 {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 50%;
+}
+.page-1-1 .part_2 {
+  position: absolute;
+  left: 20px;
+  top: 24%;
+  width: 70%;
+}
+.page-1-1 .part_3 {
+  position: absolute;
+  right: -20%;
+  top: 40%;
+  width: 80%;
+}
+.page-1-1 .part_4 {
+  position: absolute;
+  right: -14%;
+  top: 50%;
+  margin-top: 65%;
+  width: 70%;
+  opacity: 0.8;
+}
+.page-1-1 .part_5 {
+  position: absolute;
+  left: 0;
+  top: 65%;
+  width: 40%;
+}
+.page-2-1 .part_1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+  width: 70%;
+}
+.page-2-1 .part_2 {
+  position: absolute;
+  left: 10%;
+  top: 24%;
+  width: 80%;
+}
+.page-2-1 .part_3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+}
+.page-3-1 .text {
+  position: absolute;
+  left: 7%;
+  width: 85%;
+}
+.page-3-1 .part_1 {
+  position: absolute;
+  left: 7%;
+  width: 85%;
+  top: 10%;
+}
+.page-3-1 .part_2 {
+  position: absolute;
+  left: 7%;
+  width: 85%;
+  top: 10%;
+  margin-top: 40%;
+}
+.page-3-1 .part_3 {
+  position: absolute;
+  left: 7%;
+  top: 20%;
+  width: 85%;
+  margin-top: 50%;
+}
+.page-4-1 .part_1 {
+  display: block;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  margin-left: -45%;
+  top: 15%;
+}
+.page-4-1 .part_2 {
+  display: block;
+  position: absolute;
+  width: 70%;
+  left: 50%;
+  margin-left: -35%;
+  top: 80% ;
+}
+.page-5-1 .arrow-group {
+  display: block;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  margin-left: -45%;
+  top: 45%;
+  height: 100px;
+  letter-spacing: -0.3em;
+  /*根据不同字体字号或许需要做一定的调整*/
+}
+.page-5-1 .arrow {
+  letter-spacing: normal;
+  zoom: 1;
+  background: url(../img/arrow.png) no-repeat 0px 0px;
+  background-size: 70px 40px;
+  font-size: 12px;
+  color: #fff;
+  display: inline-block;
+  width: 70px;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 5px;
+}
+.page-5-1 .part_1 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+  top: 15%;
+}
+.page-detail .left-text {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+}
+.page-detail .blue {
+  color: #55b9e3;
+}
+.page-detail .big-title {
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  color: #000;
+  font-weight: bold;
+  top: 10%;
+}
+.page-detail .title {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  color: #55b9e3;
+  font-size: 16px;
+  font-weight: bold;
+  top: 10%;
+  margin-top: 50px;
+}
+.page-detail .msg-blue {
+  color: #55b9e3;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  font-size: 14px;
+  top: 10%;
+  margin-top: 75px;
+}
+.page-detail .msg {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  top: 10%;
+  margin-top: 100px;
+}
+.page-detail .part_1 {
+  display: block;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  margin-left: -45%;
+  top: 42%;
+}
+.page-6-1 .part_1,
+.page-8-1 .part_1 {
+  display: block;
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  margin-left: -25%;
+  top: 15%;
+}
+.page-6-1 .msg,
+.page-8-1 .msg {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 55%;
+}
+.page-6-detail .left-text {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+}
+.page-6-detail .blue {
+  color: #55b9e3;
+}
+.page-6-detail .big-title {
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  color: #000;
+  font-weight: bold;
+  top: 10%;
+}
+.page-6-detail .title {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  color: #55b9e3;
+  font-size: 16px;
+  font-weight: bold;
+  top: 10%;
+  margin-top: 50px;
+}
+.page-6-detail .msg-blue {
+  color: #55b9e3;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  font-size: 14px;
+  top: 10%;
+  margin-top: 75px;
+}
+.page-6-detail .msg {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  top: 10%;
+  margin-top: 100px;
+}
+.page-6-detail .part_1 {
+  display: block;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  margin-left: -45%;
+  top: 42%;
+}
+.page-6-detail .msg {
+  top: 10%;
+  margin-top: 75px;
+}
+.page-6-detail .part_1 {
+  top: 35%;
+}
+.page-6-4 .part_1 {
+  top: 30%;
+  display: block;
+  position: absolute;
+  width: 80%;
+  left: 50%;
+  margin-left: -40%;
+}
+.page-7-1 .part_1 {
+  position: absolute;
+  left: 15%;
+  width: 50%;
+  top: 70%;
+}
+.page-7-1 .icon {
+  position: absolute;
+  width: 35%;
+  left: 50% ;
+  top: 45%;
+  z-index: 2;
+}
+.page-7-1 .part_2 {
+  margin-top: 0;
+  margin-left: -45%;
+  width: 40%;
+}
+.page-7-1 .part_3 {
+  margin-top: -30%;
+  margin-left: -40%;
+  width: 40%;
+}
+.page-7-1 .part_4 {
+  margin-top: -60%;
+  margin-left: -19%;
+  z-index: 4;
+  width: 40%;
+}
+.page-7-1 .part_5 {
+  margin-top: -40%;
+  margin-left: 5%;
+  z-index: 3;
+}
+.page-7-1 .part_6 {
+  margin-top: -15%;
+  margin-left: 5%;
+  width: 44%;
+}
+.page-7-1 .part_7 {
+  margin-top: -18%;
+  margin-left: -18%;
+  z-index: 1;
+  width: 45%;
+}
+.page-8-1 .msg {
+  width: auto;
+  padding: 0 20px;
+}
+.page-8-detail .left-text {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+}
+.page-8-detail .blue {
+  color: #55b9e3;
+}
+.page-8-detail .big-title {
+  font-size: 28px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  color: #000;
+  font-weight: bold;
+  top: 10%;
+}
+.page-8-detail .title {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  color: #55b9e3;
+  font-size: 16px;
+  font-weight: bold;
+  top: 10%;
+  margin-top: 50px;
+}
+.page-8-detail .msg-blue {
+  color: #55b9e3;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  font-size: 14px;
+  top: 10%;
+  margin-top: 75px;
+}
+.page-8-detail .msg {
+  text-align: left;
+  position: absolute;
+  left: 0;
+  padding-left: 15px;
+  top: 10%;
+  margin-top: 100px;
+}
+.page-8-detail .part_1 {
+  display: block;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  margin-left: -45%;
+  top: 42%;
+}
+.page-8-detail .msg {
+  margin-top: 80px;
+}
+.page-8-detail .part_1 {
+  top: 47%;
+}
+.page-8-detail .service {
+  position: absolute;
+  right: 10%;
+  top: 47%;
+  width: 20%;
+  margin-top: -10%;
+}
+.page-9-1 .part_1 {
+  display: block;
+  position: absolute;
+  width: 70%;
+  left: 50%;
+  margin-left: -35%;
+  top: 40%;
+}
+.page-10-1 .part_1 {
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -40%;
+}
+.page-10-1 .part_2 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+@media (max-height: 480px) {
+  .page-detail .part_1 {
+    display: block;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    top: 42%;
+  }
+}
+/* iphone4/4s */
+/* iphone5 */
+/* iphone6 */
+/* iphone6 Plus */
