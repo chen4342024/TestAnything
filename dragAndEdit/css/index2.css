@@ -1,0 +1,351 @@
+div.bg-color {
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 80%;
+	background-color: #00529b;
+}
+.pagewrap .p-title {
+	position: absolute;
+	top: 8%;
+	width: 100%;
+	text-align: center;
+	color: #00529b;
+	font: 32px/32px bold "微软雅黑";
+}
+.pagewrap .p-title2 {
+	position: absolute;
+	color: #FFF;
+}
+.pagewrap .p-msg {
+	position: absolute;
+	top: 8%;
+	width: 90%;
+	left: 50%;
+	margin-left: -45%;
+	text-align: center;
+	color: #00529b;
+	font: 24px/16px bold "微软雅黑";
+}
+.pagewrap .part-msg1 {
+	color: #FFF;
+	top: 22%;
+	font-size: 24px;
+}
+.pagewrap .part-msg2 {
+	color: #FFF;
+	top: 26%;
+	text-align: left;
+	font-size: 14px;
+}
+.pagewrap .part-msg3 {
+	color: #FFF;
+	top: 31%;
+	text-align: left;
+	font-size: 14px;
+}
+.pagewrap .part-msg4 {
+	color: #FFF;
+	top: 36%;
+	text-align: left;
+	font-size: 14px;
+}
+.pagewrap .part-msg5 {
+	color: #FFF;
+	top: 46%;
+	text-align: left;
+	font-size: 14px;
+}
+.pagewrap .p-text1 {
+	top: 53%;
+}
+.pagewrap .p-text2 {
+	top: 59%;
+}
+.pagewrap .p-text3 {
+	top: 65%;
+}
+.pagewrap .p-text4 {
+	top: 71%;
+}
+.pagewrap .p-text5 {
+	top: 44%;
+}
+.pagewrap .msg-title {
+	top: 10%;
+}
+.pagewrap .msg-title {
+	top: 10%;
+}
+.page-3-1 .img_2 {
+	position: absolute;
+	width: 120px;
+	top: 4%;
+	left: 50%;
+	margin-left: -60px;
+}
+.page-3-1 .part-msg5 {
+	top: 51%;
+}
+.page-3-2 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-3-3 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-4-1 .img_2 {
+	position: absolute;
+	width: 120px;
+	top: 4%;
+	left: 50%;
+	margin-left: -60px;
+}
+.page-4-2 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-4-3 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-4-4 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-5-1 .img_2 {
+	position: absolute;
+	width: 120px;
+	top: 4%;
+	left: 50%;
+	margin-left: -60px;
+}
+.page-5-2 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-5-3 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-5-4 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-5-5 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-5-6 .img_3 {
+	position: absolute;
+	width: 60%;
+	top: 20%;
+	left: 50%;
+	margin-left: -30%;
+}
+.page-13-1 .img_2 {
+	position: absolute;
+	width: 100%;
+	top: 15%;
+	margin-left: -50%;
+}
+.page-14-1 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-14-2 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-14-3 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-14-4 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-14-5 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-14-6 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-14-7 .img_2 {
+	position: absolute;
+	width: 65%;
+	top: 18%;
+	left: 50%;
+	margin-left: -32.5%;
+}
+.page-15-1 .end-msg1 {
+	position: absolute;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	font-size: 72px;
+	top: 20%;
+}
+.page-15-1 .end-msg2 {
+	position: absolute;
+	color: #FFF;
+	text-align: center;
+	width: 100%;
+	font-size: 32px;
+	top: 40%;
+}
+.page-15-1 .img_2 {
+	position: absolute;
+	width: 120px;
+	top: 85%;
+	left: 30%;
+}
+.page-15-1 .img_3 {
+	position: absolute;
+	width: 120px;
+	top: 90%;
+	left: 80%;
+}
+.dot-group2 {
+	top: 86%;
+}
+
+/*兼容iphone4/4s */
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2) {
+	.pagewrap .p-title {
+		font-size: 32px;
+		top: 5%;
+	}
+	.page-13-1 .img_2 {
+		top: 15%;
+		width: 90%;
+		margin-left: -45%;
+	}
+	.page-14-1 .img_2 {
+		top: 12%;
+	}
+	.page-14-2 .img_2 {
+		top: 12%;
+	}
+	.page-14-3 .img_2 {
+		top: 12%;
+	}
+	.page-14-4 .img_2 {
+		top: 12%;
+	}
+	.page-14-5 .img_2 {
+		top: 12%;
+	}
+	.page-14-6 .img_2 {
+		top: 12%;
+	}
+	.page-14-7 .img_2 {
+		top: 12%;
+	}
+	.page-3-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.page-3-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.page-4-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.page-5-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.pagewrap .p-msg {
+		font-size: 12px;
+	}
+	.pagewrap .part-msg1 {
+		font-size: 24px;
+	}
+	.page-15-1 .bg1 {
+		height: 60%;
+	}
+}
+
+/**兼容iphone5**/
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2) {
+	.page-15-1 .bg1 {
+		height: 60%;
+	}
+	.page-3-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.page-3-1 .part-msg5 {
+		top: 56%;
+	}
+	.page-4-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.page-5-1 .img_2 {
+		width: 80px;
+		margin-left: -40px
+	}
+	.pagewrap .p-msg {
+		font-size: 14px;
+	}
+	.pagewrap .part-msg1 {
+		top: 20%;
+		font-size: 24px;
+	}
+	.pagewrap .msg-title {
+		top: 10%;
+	}
+}
