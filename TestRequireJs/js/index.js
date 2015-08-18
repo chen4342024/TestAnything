@@ -74,8 +74,8 @@ var currentEditEl = null;
 $(document).on("contextmenu", ".edit-box", function (e) {
     var $el = $("#rightSelect");
     currentEditEl = this;
-    if(!$(currentEditEl).hasClass("edit-box")){
-        return ;
+    if (!$(currentEditEl).hasClass("edit-box")) {
+        return;
     }
     $el.show();
     $el[0].style.top = (e.clientY) + "px";
@@ -85,18 +85,18 @@ $(document).on("contextmenu", ".edit-box", function (e) {
 
 });
 
-resizeUtil.registerCallback(function (key,e) {
-    if(key == "resizing"){
+resizeUtil.registerCallback(function (key, e) {
+    if (key == "resizing") {
         moveUtil.setLockDrag(true);
-    }else{
+    } else {
         moveUtil.setLockDrag(false);
     }
 });
 
 function setEditable() {
     $("#rightSelect").hide();
-    var $editEl =$(currentEditEl);
-    moveUtil.dragable($editEl,false);
+    var $editEl = $(currentEditEl);
+    moveUtil.dragable($editEl, false);
     resizeUtil.resizeable($editEl);
 }
 
@@ -105,8 +105,9 @@ function setDragable() {
     $("#rightSelect").hide();
     var $editEl = $(currentEditEl);
     moveUtil.dragable($editEl);
-    resizeUtil.resizeable($editEl,false);
+    resizeUtil.resizeable($editEl, false);
 }
+
 
 
 
